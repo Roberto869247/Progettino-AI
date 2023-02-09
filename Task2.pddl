@@ -11,7 +11,7 @@
         ;; dynamic:
         shakey1 shakey2 box1 box2 box3 box4 box5 box6 box7
         ;;for EXTENDED-DOMAIN
-        v0 void limited-container1 hand
+        v0 void limited-container1 hand1 hand2
     )
     (:init
         ;; static:
@@ -66,8 +66,10 @@
         ;;for EXTENDED-DOMAIN
         (at v0 limited-container1)
         (clear void box1)
-        (hand shakey hand)
-        (empty hand)
+        (hand shakey1 hand1)
+        (empty hand1)
+        (hand shakey2 hand2)
+        (empty hand2)
     )
     (:goal
         (and

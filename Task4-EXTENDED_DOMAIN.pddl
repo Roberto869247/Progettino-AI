@@ -47,7 +47,7 @@
                 (is-in box4 room3)
                 (is-in limited-container1 room1)
                 (is-in limited-container2 room1)
-                (is-in shakey room1)
+                (is-in shakey room2)
                 (lit switch1)
                 (off switch2)
                 (off switch4)
